@@ -48,18 +48,9 @@ function App() {
           <div
             className={`w-full flex md:flex-row gap-4 justify-center items-center md:pl-6 md:pr-6 flex-col`}
           >
-            <Card
-              label="Online Education"
-              imageUrl="/src/assets/Card1Img.webp"
-            />
-            <Card
-              label="Online Education"
-              imageUrl="/src/assets/Card2Img.webp"
-            />
-            <Card
-              label="Online Education"
-              imageUrl="/src/assets/Card3Img.webp"
-            />
+            <Card label="Online Education" imageUrl="./assets/Card1Img.webp" />
+            <Card label="Online Education" imageUrl="./assets/Card2Img.webp" />
+            <Card label="Online Education" imageUrl="./assets/Card3Img.webp" />
           </div>
         </section>
         {/* Second Section */}
@@ -74,12 +65,12 @@ function App() {
             <div
               className={`absolute w-64 h-64 -z-20 md:top-12 md:-rotate-45 lg:right-48 lg:-rotate-12`}
             >
-              <img src="/src/assets/Plant.webp" alt="" />
+              <img src="./assets/Plant.webp" alt="" />
             </div>
             <video
               controls
               className={`w-80 h-80 rounded-full border-8 border-blue-200 object-fill`}
-              poster="/src/assets/VideoPreview.png"
+              poster="./assets/VideoPreview.png"
             ></video>
           </div>
           <div
@@ -133,22 +124,22 @@ function App() {
           <h2 className={`text-4xl font-bold`}>Around the University</h2>
           <div className={`w-full grid-container grid-container--fit p-12`}>
             <VideoCard
-              imageUrl={"/src/assets/VideoCard1.webp"}
+              imageUrl={"./assets/VideoCard1.webp"}
               title="Get started coding android apps with kotlin"
               genre="Global System"
             />
             <VideoCard
-              imageUrl={"/src/assets/VideoCard2.webp"}
+              imageUrl={"./assets/VideoCard2.webp"}
               title="A Beginner's Guide to the New Bootstrap 4 Grid"
               genre="Web Development"
             />
             <VideoCard
-              imageUrl={"/src/assets/VideoCard3.webp"}
+              imageUrl={"./assets/VideoCard3.webp"}
               title="Code a Swift app with Realm Mobile Database"
               genre="Music"
             />
             <VideoCard
-              imageUrl={"/src/assets/VideoCard4.webp"}
+              imageUrl={"./assets/VideoCard4.webp"}
               title="Modern PHP From the beginning"
               genre="Data science"
             />
@@ -162,11 +153,7 @@ function App() {
             className={`grid-container grid-container--fit bg-gray-800 p-12 text-gray-400`}
           >
             <div className={`w-full flex flex-col gap-4`}>
-              <img
-                src="/src/assets/LogoFooter.webp"
-                alt=""
-                className={`w-48`}
-              />
+              <img src="./assets/LogoFooter.webp" alt="" className={`w-48`} />
               <p>
                 Edumondo focuses on creating magnificent education websites with
                 ease. Take the lead in the race with Learned.

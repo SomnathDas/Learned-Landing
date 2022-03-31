@@ -19,7 +19,7 @@ const NavbarList = () => {
         className={` flex md:justify-around justify-between items-center md:ml-6 md:mr-6 md:text-sm`}
       >
         <li className={`md:ml-0 ml-12 ${isMenuOpen ? "hidden" : "block"}`}>
-          <img src="src/assets/Logo.webp" alt="Logo" />
+          <img src="./assets/Logo.webp" alt="Logo" />
         </li>
         <li className={`${isMenuOpen ? "hidden" : "block"}`}>
           <button onClick={() => setIsMenuOpen(!isMenuOpen)}>
